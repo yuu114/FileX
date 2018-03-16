@@ -1,0 +1,19 @@
+{
+  "name": "filex",
+  "version": "0.0.1",
+  "description": "file explorer in nodejs",
+  "main": "index.js",
+  "scrips": {
+    "start": "electron ."
+  },
+  "author": "QuestX",
+  "license": "MIT",
+  "dependencies": {
+    "babel-eslint": "^8.2.2",
+    "electron": "^1.8.3",
+    "eslint": "^4.18.2",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-promise": "^3.7.0"
+  }
+}

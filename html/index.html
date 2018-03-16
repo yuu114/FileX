@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YAY</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="../js/vue.min.js"></script>
+  <script>
+    if (typeof module === 'object') {
+      window.module = module;
+      module = undefined;
+    }
+  </script>
+  <script src="../js/jquery.min.js"></script>
+  <script>
+    if (window.module) module = window.module;
+  </script>
+</head>
+
+<body>
+  <header>
+    <div id="menu-buttons">
+      <span id="open-folder">Open</span>
+      <span>Help</span>
+    </div>
+    <div id="errorMessages">
+      <span >{{ newMessage }}</span>
+    </div>
+    <input id="search-images" placeholder="search..."></input>
+  </header>
+
+  <div id="img-overview"></div>
+  <div id="file-overview"></div>
+
+  <div id="wrapper-img-view" style="display: none;">
+    <button id="close-img-view">X</button>
+  </div>
+
+  <script src="../js/script.js"></script>
+  <script src="../js/search.js"></script>
+  <script src="../js/error.js"></script>
+</body>
+
+</html>
